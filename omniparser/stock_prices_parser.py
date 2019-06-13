@@ -33,4 +33,12 @@ if __name__ == "__main__":
     aapl_price = calculate_latest_closing_price_from_json(aapl_filepath)
     print(aapl_price)
 
+    goog_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "stock_prices_goog.json")
+    goog_price = calculate_latest_closing_price_from_json(goog_filepath)
+    print(goog_price)
+
+
+    msft_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "stock_prices_msft.json")
+    msft_price = calculate_latest_closing_price_from_json(msft_filepath)
+    print(msft_price)
 
