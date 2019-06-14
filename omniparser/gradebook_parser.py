@@ -51,8 +51,6 @@ def calculate_average_grade_from_json(x):
 
     return avg_grade
 
-    breakpoint() # it does not work!
-
     #print(type(gradebook))
     #print(gradebook)
 
