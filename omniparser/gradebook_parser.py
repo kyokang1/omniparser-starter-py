@@ -83,17 +83,18 @@ if __name__ == "__main__":
 # not working
 #    print("PARSING SOME EXAMPLE GRADEBOOK FILES HERE...")
 
-#    gradebook_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "gradebook_2019.json")
-#    print(gradebook_filepath)
-#    print(os.path.isfile(gradebook_filepath))
-#    avg = calculate_average_grade_from_json(gradebook_filepath)
+    gradebook_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "gradebook_2019.json")
+    print(gradebook_filepath)
+    print(os.path.isfile(gradebook_filepath))
+    avg_2019 = calculate_average_grade_from_json(gradebook_filepath)
 
-    print("PARSING SOME JSON GRADEBOOK FILES HERE...")
     gradebook_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "gradebook_2018.json")
 #    print(gradebook_filepath) #>  c:\users\mike\documents\github\omniparser-starter-py\omniparser\gradebook_parser.py
 #    print(os.path.isfile(gradebook_filepath)) #> True
-    avg = calculate_average_grade_from_json(gradebook_filepath)
-    print(avg)
+    avg_2018 = calculate_average_grade_from_json(gradebook_filepath)
+    print("Average Grade of 2018 is: " + str(avg_2018))
+    print("Average Grade of 2019 is: " + str(avg_2019))
+    print("It Shows Upgarde or Downgrad of " )
 
 
 
