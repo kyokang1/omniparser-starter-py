@@ -1,3 +1,9 @@
+## Kyoung Jun/15/2019
+## Done: gradebook_parser_test & stock_prices_parser_test
+## Not Done: filings_index_parser_test
+
+
+
 # omniparser-starter-py
 
 Contains starter code and data for the "Omniparser" Exercise.
