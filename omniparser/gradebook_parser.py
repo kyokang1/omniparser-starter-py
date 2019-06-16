@@ -10,7 +10,7 @@ import json
 def calculate_average_grade_from_csv(my_csv_filepath):
     df = pandas.read_csv(my_csv_filepath)
 
-    breakpoint()
+    #breakpoint()
 
     rows = df.to_dict("records")
     grades = [r["final_grade"] for r in rows] #> [86.7, 95.1, 60.3, 99.8, 97.4, 85.5, 97.2, 98.0, 93.9, 92.5]
@@ -94,7 +94,6 @@ if __name__ == "__main__":
     avg_2018 = calculate_average_grade_from_json(gradebook_filepath)
     print("Average Grade of 2018 is: " + str(avg_2018))
     print("Average Grade of 2019 is: " + str(avg_2019))
-    print("It Shows Upgarde or Downgrad of " )
 
 
 
